@@ -1,0 +1,1341 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://power-canvas-eta.vercel.app/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>User guide title</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#canvas-features-to-improve-your-workflow" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="User guide title" class="md-header__button md-logo" aria-label="User guide title" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            User guide title
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="User guide title" class="md-nav__button md-logo" aria-label="User guide title" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    User guide title
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Table of Contents
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#before-you-start-the-sidebar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Before You Start: The Sidebar
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#toggling-accessibility-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Toggling Accessibility Settings
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Toggling Accessibility Settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#quick-toggles-account-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick Toggles (Account Menu)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#more-options-feature-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        More Options (Feature Options)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#switching-between-card-view-and-list-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Switching Between Card View and List View
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editing-course-cards" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing Course Cards
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Editing Course Cards">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nickname-a-course" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nickname a Course
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#change-a-course-color" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Change a Course Color
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#move-a-course-card" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Move a Course Card
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#show-a-color-overlay" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Show a Color Overlay
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-custom-to-dos-from-the-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating Custom To Dos from the Dashboard
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-custom-events-to-the-calendar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Custom Events to the Calendar
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adding Custom Events to the Calendar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#add-an-event" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Add an Event
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-a-to-do-from-the-calendar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Add a To Do from the Calendar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#show-or-hide-course-calendars" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Show or Hide Course Calendars
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#all-courses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        All Courses
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="All Courses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#favorite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Favorite
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#past-enrollments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Past Enrollments
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sending-mail-through-canvas-inbox" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sending Mail Through Canvas Inbox
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sending Mail Through Canvas Inbox">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#send-a-message" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Send a Message
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#find-messages-faster" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Find Messages Faster
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#navigating-with-recent-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Navigating with Recent History
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Table of Contents
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#before-you-start-the-sidebar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Before You Start: The Sidebar
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#toggling-accessibility-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Toggling Accessibility Settings
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Toggling Accessibility Settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#quick-toggles-account-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick Toggles (Account Menu)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#more-options-feature-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        More Options (Feature Options)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#switching-between-card-view-and-list-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Switching Between Card View and List View
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editing-course-cards" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing Course Cards
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Editing Course Cards">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nickname-a-course" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nickname a Course
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#change-a-course-color" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Change a Course Color
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#move-a-course-card" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Move a Course Card
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#show-a-color-overlay" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Show a Color Overlay
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-custom-to-dos-from-the-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating Custom To Dos from the Dashboard
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-custom-events-to-the-calendar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Custom Events to the Calendar
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adding Custom Events to the Calendar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#add-an-event" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Add an Event
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-a-to-do-from-the-calendar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Add a To Do from the Calendar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#show-or-hide-course-calendars" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Show or Hide Course Calendars
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#all-courses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        All Courses
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="All Courses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#favorite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Favorite
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#past-enrollments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Past Enrollments
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sending-mail-through-canvas-inbox" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sending Mail Through Canvas Inbox
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sending Mail Through Canvas Inbox">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#send-a-message" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Send a Message
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#find-messages-faster" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Find Messages Faster
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#navigating-with-recent-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Navigating with Recent History
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<p><a id="web"></a></p>
+<h1 id="canvas-features-to-improve-your-workflow">Canvas Features to Improve Your Workflow</h1>
+<p>The existing official <a href="https://community.instructure.com/en/kb/canvas-lms-student-guide">Canvas documentation</a> is bloated with outdated pages and unfinished stubs, making feature information difficult to locate. Third party guides typically only cover educator features and those designed for students bury advanced info in basic tutorials.</p>
+<p>This user guide cuts through the excess. It skips basics (submitting assignments, checking grades, opening modules) and focuses on the settings and shortcuts that make Canvas more readable, easier to plan with, and faster to navigate.</p>
+<p>:::info
+<strong>Note:</strong>
+Your institution controls which features are turned on. If a button or setting in this guide doesn't appear for you, it may be disabled for your school's Canvas account.
+:::</p>
+<hr />
+<p>:::info</p>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li><a href="#canvas-features-to-improve-your-workflow">Canvas Features to Improve Your Workflow</a></li>
+<li><a href="#table-of-contents">Table of Contents</a></li>
+<li><a href="#before-you-start-the-sidebar">Before You Start: The Sidebar</a></li>
+<li><a href="#toggling-accessibility-settings">Toggling Accessibility Settings</a><ul>
+<li><a href="#quick-toggles-account-menu">Quick Toggles (Account Menu)</a></li>
+<li><a href="#more-options-feature-options">More Options (Feature Options)</a></li>
+</ul>
+</li>
+<li><a href="#switching-between-card-view-and-list-view">Switching Between Card View and List View</a></li>
+<li><a href="#editing-course-cards">Editing Course Cards</a><ul>
+<li><a href="#nickname-a-course">Nickname a Course</a></li>
+<li><a href="#change-a-course-color">Change a Course Color</a></li>
+<li><a href="#move-a-course-card">Move a Course Card</a></li>
+<li><a href="#show-a-color-overlay">Show a Color Overlay</a></li>
+</ul>
+</li>
+<li><a href="#creating-custom-to-dos-from-the-dashboard">Creating Custom To Dos from the Dashboard</a></li>
+<li><a href="#adding-custom-events-to-the-calendar">Adding Custom Events to the Calendar</a><ul>
+<li><a href="#add-an-event">Add an Event</a></li>
+<li><a href="#add-a-to-do-from-the-calendar">Add a To Do from the Calendar</a></li>
+<li><a href="#show-or-hide-course-calendars">Show or Hide Course Calendars</a></li>
+</ul>
+</li>
+<li><a href="#all-courses">All Courses</a><ul>
+<li><a href="#favorite">Favorite</a></li>
+<li><a href="#past-enrollments">Past Enrollments</a></li>
+</ul>
+</li>
+<li><a href="#sending-mail-through-canvas-inbox">Sending Mail Through Canvas Inbox</a><ul>
+<li><a href="#send-a-message">Send a Message</a></li>
+<li><a href="#find-messages-faster">Find Messages Faster</a></li>
+</ul>
+</li>
+<li><a href="#navigating-with-recent-history">Navigating with Recent History</a></li>
+<li><a href="#quick-links">Quick Links</a></li>
+</ul>
+<p><a id="bys"></a></p>
+<h2 id="before-you-start-the-sidebar">Before You Start: The Sidebar</h2>
+<!-- Finished -->
+<p>Every feature in this guide starts from the sidebar (Canvas calls it <em>Global Navigation</em>) along the left side of the screen. Hover over an icon to see its label.</p>
+<p>:::info
+<strong>Note</strong>:
+If you don't see the sidebar, your screen may not be wide enough. To show the sidebar, click on the hamburger menu (<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu preview-icon"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg>) on the top left of your screen.
+:::</p>
+<table>
+<thead>
+<tr>
+<th>Button</th>
+<th>Icon Description</th>
+<th>Used In</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Account</td>
+<td>Profile Portrait</td>
+<td><a href="#ada">Accessibility Settings</a></td>
+</tr>
+<tr>
+<td>Dashboard</td>
+<td>Gauge</td>
+<td><a href="#views">Dashboard Views</a>, <a href="#cards">Course Cards</a>, <a href="#todo">To Dos</a></td>
+</tr>
+<tr>
+<td>Calendar</td>
+<td>Calendar</td>
+<td><a href="#events">Custom Events</a></td>
+</tr>
+<tr>
+<td>Inbox</td>
+<td>File Tray</td>
+<td><a href="#inbox">Canvas Inbox</a></td>
+</tr>
+<tr>
+<td>History</td>
+<td>Clock</td>
+<td><a href="#history">Recent History</a></td>
+</tr>
+</tbody>
+</table>
+<p>:::info
+<strong>Note:</strong>
+The Canvas logo at the top left of the screen is also a button that routes to the Dashboard.
+:::</p>
+<p><a id="ada"></a></p>
+<h2 id="toggling-accessibility-settings">Toggling Accessibility Settings</h2>
+<p>Canvas has built-in display options that change how the entire interface looks — not just one page. They're tucked inside the <em>Account</em> menu, so most students never see them.</p>
+<p><a id="ada-quick"></a></p>
+<h3 id="quick-toggles-account-menu">Quick Toggles (Account Menu)</h3>
+<p>The two most common options can be switched on and off in one click.</p>
+<ol>
+<li>In the sidebar, click <strong>Account</strong>. <img alt="Screenshot of the Canvas Dashboard with red arrows pointing to the Account quick link on the left sidebar and Accessibility Settings within the Account tab. The Accessibility Settings are surrounded by a red box" src="https://hackmd.io/_uploads/BkDymS82zl.png" /></li>
+<li>Near the bottom of the menu that expands, find the toggles:<ul>
+<li><strong>Use High Contrast UI</strong> — increases the contrast of text, buttons, and other interface elements so they're easier to distinguish. <img alt="Screenshot of the Cavas Dashboard with High Contrast UI enabled." src="https://hackmd.io/_uploads/Hy8mVr83Gx.png" /></li>
+<li><strong>Use a Dyslexia Friendly Font</strong> — switches the Canvas interface to the OpenDyslexic font. <img alt="Screenshot of the Canvas Dashboard with Dyslexia Friendly Font enabled." src="https://hackmd.io/_uploads/HJMtmrI2Mg.png" /></li>
+</ul>
+</li>
+<li>Click a toggle to turn it on. <strong>Refresh the browser page</strong> to see the change.</li>
+</ol>
+<p>:::info
+<strong>Note</strong>:
+High Contrast UI hides institutional branding, so your school's logo and colors won't display while it's on.
+:::</p>
+<p><a id="ada-more"></a></p>
+<h3 id="more-options-feature-options">More Options (Feature Options)</h3>
+<p>More accessibility and comfort settings live one level deeper, in your user <strong>Settings</strong>.</p>
+<ol>
+<li>In the sidebar, click <strong>Account</strong>, then click <strong>Settings</strong>.</li>
+<li>Scroll down to the <strong>Feature Options</strong> section.</li>
+<li>Click the toggle next to any option you want to turn on.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Feature Option</th>
+<th>What It Does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Auto Show Closed Captions</td>
+<td>Turns on captions by default for videos with captions added in Canvas (not YouTube or other third-party embeds).</td>
+</tr>
+<tr>
+<td>Disable Alert Notification Timeouts</td>
+<td>Keeps alert pop-ups on screen until you dismiss them, instead of letting them disappear.</td>
+</tr>
+<tr>
+<td>Disable Celebration Animations</td>
+<td>Turns off the confetti that appears when you submit an assignment on time. Only appears if your school has celebrations enabled.</td>
+</tr>
+<tr>
+<td>Disable Keyboard Shortcuts</td>
+<td>Turns off keyboard shortcuts in Modules and Discussions — useful if they conflict with a screen reader.</td>
+</tr>
+<tr>
+<td>Microsoft Immersive Reader</td>
+<td>Adds an <strong>Immersive Reader</strong> button to course home pages, assignments, pages, and the syllabus. Reads text aloud, adjusts spacing, and more.</td>
+</tr>
+<tr>
+<td>Underline Links</td>
+<td>Underlines links in menus, the Dashboard, and sidebars so they're easier to spot.</td>
+</tr>
+</tbody>
+</table>
+<p><a id="views"></a></p>
+<h2 id="switching-between-card-view-and-list-view">Switching Between Card View and List View</h2>
+<p>The Dashboard can display your courses in more than one layout. <strong>Card View</strong> shows a tile for each course; <strong>List View</strong> shows a single, date-sorted agenda of everything due across all of your courses.</p>
+<ol>
+<li>In the sidebar, click <strong>Dashboard</strong>.</li>
+<li>At the top right of the Dashboard, click the <strong>Options</strong> icon (three vertical dots). <img alt="Screenshot of the Canvas Dashboard with a red box and red arrow pointing to the Dashboard settings icon in the top right of the screen. The Dashboard View popup is visible, showing the possible view options." src="https://hackmd.io/_uploads/B1gPrHIhMg.png" /></li>
+<li>Select a view:<ul>
+<li><strong>Card View</strong> — one card per course. Best for jumping into a specific course.</li>
+<li><strong>List View</strong> — a scrolling agenda of assignments, quizzes, discussions, and to dos, grouped by date. Best for seeing what's due this week.</li>
+<li><strong>Recent Activity</strong> — a feed of recent announcements, discussions, and grading activity.</li>
+</ul>
+</li>
+</ol>
+<p>Canvas remembers your choice the next time you log in.</p>
+<p><a id="cards"></a></p>
+<h2 id="editing-course-cards">Editing Course Cards</h2>
+<p>In Card View, every course card can be renamed, recolored, and rearranged. These changes are only visible to you — your instructor and classmates still see the original course.</p>
+<p>All three options start in the same place: the <strong>Options</strong> icon (three vertical dots) in the top right corner of a course card.</p>
+<p><img alt="Screenshot of the Canvas Dashboard showing the card options. The options popup points to the card its editing." src="https://hackmd.io/_uploads/rkFqZBUhMg.png" /></p>
+<p><a id="card-nick"></a></p>
+<h3 id="nickname-a-course">Nickname a Course</h3>
+<p>Course names generated by the registrar can be long and complicated (e.g., <em>Site 3 Chem 1045 Fall 2024</em>). A nickname replaces it with something readable.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Before Nicknamed</th>
+<th style="text-align: center;">After Nicknamed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><img alt="Screenshot of a Canvas Dashboard card before being nicknamed. Reads: &quot;Intro GUI Programming/Graphics&quot;." src="https://hackmd.io/_uploads/BkzsprL2fx.png" /></td>
+<td style="text-align: center;"><img alt="Screenshot of a Canvas Dashboard card after being nicknamed. Reads: &quot;GUI&quot;." src="https://hackmd.io/_uploads/Hyy6pSUhfe.png" /></td>
+</tr>
+</tbody>
+</table>
+<p>To Nickname a course:
+1. Click the card's <strong>Options</strong> icon.
+2. In the <strong>Nickname</strong> field, type a new name (up to 59 characters).
+3. Click <strong>Apply</strong>.</p>
+<p>Nicknames appear on the Dashboard, in the course navigation menu, and in notification emails. To see the original course name, hover over the nickname.</p>
+<p>To remove a nickname, delete the text in the <strong>Nickname</strong> field and click <strong>Apply</strong>.</p>
+<p><a id="card-color"></a></p>
+<h3 id="change-a-course-color">Change a Course Color</h3>
+<ol>
+<li>Click the card's <strong>Options</strong> icon.</li>
+<li>Click one of the color swatches, or type any color's hex code into the <strong>Hex Code</strong> field.</li>
+<li>Click <strong>Apply</strong>.</li>
+</ol>
+<p>:::info
+<strong>Note</strong>:
+Course colors sync with the Calendar. If you color-code your courses here, your assignments in the <a href="#events">Calendar</a> will match.
+:::</p>
+<p><a id="card-move"></a></p>
+<h3 id="move-a-course-card">Move a Course Card</h3>
+<ol>
+<li>Click the card's <strong>Options</strong> icon.</li>
+<li>Click the <strong>Move</strong> tab.</li>
+<li>Choose where the card should go — to the top, before or after a specific card, or to the bottom.</li>
+</ol>
+<p>You can also <strong>click and drag</strong> a card directly to a new spot on the Dashboard.</p>
+<p>To remove a card from the Dashboard entirely, click <strong>Unfavorite</strong> in the <strong>Move</strong> tab. This option only appears if you've previously favorited courses.</p>
+<p><a id="card-overlay"></a></p>
+<h3 id="show-a-color-overlay">Show a Color Overlay</h3>
+<p>If your instructor added a course image, the card color may be hidden behind it. To tint all image cards with their course colors, click the Dashboard's <strong>Options</strong> icon and select <strong>Color Overlay</strong>.</p>
+<p><a id="todo"></a></p>
+<h2 id="creating-custom-to-dos-from-the-dashboard">Creating Custom To Dos from the Dashboard</h2>
+<p>Canvas automatically lists your assignments, but you can also add your own tasks (studying for an exam, meeting with a group, emailing a professor) so everything lives in one list.</p>
+<ol>
+<li>Switch the Dashboard to <a href="#views">List View</a>.</li>
+<li>At the top of the page, click the <strong>+</strong> (<strong>Add</strong>) to add a <strong>To Do</strong>. <img alt="Screenshot of Canvas Dashboard in List View. A red box and red arrow point out the + (add) icon in the top right of the screen." src="https://hackmd.io/_uploads/HyJEoSU2zx.png" /></li>
+<li>In the sidebar that opens, fill in the fields:<ul>
+<li><strong>Title</strong>: the name of your task.</li>
+<li><strong>Date</strong> and <strong>Time</strong>: when you want to finish it. Time defaults to 11:59 PM.</li>
+<li><strong>Course</strong>: optional. Attach the task to a course, or leave it as a general To Do.</li>
+<li><strong>Details</strong>: any notes for yourself.</li>
+</ul>
+</li>
+<li>Click <strong>Save</strong>. <img alt="Screenshot of Canvas Dashboard with the Custom To Do popup." src="https://hackmd.io/_uploads/rkTqoSL2fl.png" /></li>
+</ol>
+<p>Your To Do appears in the List View agenda with your profile picture next to it, so you can tell it apart from instructor-assigned work. It also appears in the <strong>To Do</strong> sidebar in Card View.</p>
+<p>To edit or delete a To Do, click it, then click the <strong>Edit</strong> icon. Make your changes and click <strong>Save</strong>, or click <strong>Delete</strong>.</p>
+<p>:::info
+<strong>Note:</strong>
+Tasks attached to a course show up alongside that course's assignments. Tasks without a course show up at the bottom of that day's list.
+:::</p>
+<p><a id="events"></a></p>
+<h2 id="adding-custom-events-to-the-calendar">Adding Custom Events to the Calendar</h2>
+<p>The Calendar shows your course deadlines automatically, but it also has a personal calendar where you can add club meetings, shifts, office hours, and anything else.</p>
+<p><a id="event-add"></a></p>
+<h3 id="add-an-event">Add an Event</h3>
+<ol>
+<li>In the sidebar, click <strong>Calendar</strong>.</li>
+<li>Click a date on the calendar, or click the <strong>+</strong> (<strong>Add</strong>) button at the top of the page. <img alt="Screenshot of the Canvas Calendar with a red arrow and circle pointing out the Add icon." src="https://hackmd.io/_uploads/ry0XlILnGe.png" /></li>
+<li>Make sure the <strong>Event</strong> tab is selected, then fill in the fields:<ul>
+<li><strong>Title</strong>: The name of the event.</li>
+<li><strong>Date</strong>: Filled in automatically if you clicked a date.</li>
+<li><strong>From</strong> and <strong>To</strong>: The start and end time. Leave both blank to create an all-day event.</li>
+<li><strong>Frequency</strong>: Choose a repeat option (daily, weekly, etc.) to make it a recurring event.</li>
+<li><strong>Location</strong>: Optional.</li>
+<li><strong>Calendar</strong>: Make sure your personal calendar (your name) is selected. <img alt="Screenshot of the Edit Event popup in the Canvas Calendar." src="https://hackmd.io/_uploads/rktMAYyTzg.png" /></li>
+</ul>
+</li>
+<li>Click <strong>Submit</strong>.</li>
+</ol>
+<p>To add a longer description or links, click <strong>More Options</strong> before submitting.</p>
+<p><a id="event-todo"></a></p>
+<h3 id="add-a-to-do-from-the-calendar">Add a To Do from the Calendar</h3>
+<p>The Calendar can also create the same To Do's described in <a href="#todo">Creating Custom To Dos</a>.</p>
+<ol>
+<li>Click the <strong>+</strong> (<strong>Add</strong>) button.</li>
+<li>Select the <strong>To Do</strong> tab.</li>
+<li>Enter a title, date, time, and (optionally) a calendar and details. If you add the To Do item to a specific course calendar, it will adopt that course's color coding.</li>
+<li>Click <strong>Submit</strong>. <img alt="Screenshot of the Edit Event popup. A red arrow points to My To Do button." src="https://hackmd.io/_uploads/r1zCCMMTfx.png" /></li>
+</ol>
+<p><a id="event-show"></a></p>
+<h3 id="show-or-hide-course-calendars">Show or Hide Course Calendars</h3>
+<p>The Calendar sidebar lists every course and group calendar. By default, only the first 10 are shown.</p>
+<ul>
+<li>To hide or show a course's items, click the checkbox next to its name. Hidden calendars appear as faded text.</li>
+<li>To change a course's color, hover over the course name, click the <strong>Options</strong> icon next to it, and choose a new color. This also changes the color of its <a href="#cards">course card</a>.</li>
+</ul>
+<p>:::info
+<strong>Note:</strong>
+Undated items at the bottom of the sidebar lists assignments and events that don't have a date yet. It's worth checking now and then.
+:::</p>
+<p><a id="courses"></a></p>
+<h2 id="all-courses">All Courses</h2>
+<p>To view all of the courses you have been enrolled in since you were admitted as a student on Canvas, click <strong>Courses</strong> on the sidebar and select <strong>All Courses</strong> at the top of the list.</p>
+<p><img alt="Screenshot of Canvas Dashboard with the Courses sidebar open. A red box and arrow point out the All Courses link at the top of the list." src="https://hackmd.io/_uploads/BymTl1T2Gg.png" /></p>
+<p><a id="courses-favorite"></a></p>
+<h3 id="favorite">Favorite</h3>
+<p>On the <strong>All Courses</strong> page, the <strong>Favorite</strong> indicates whether a course is favorited. A favorite course will have a <strong>yellow star</strong>.</p>
+<p>Favorite courses will appear on your Dashboard, Courses list, and Calendar (if <a href="#event-show">Course Calendar</a> is toggled on). </p>
+<p>:::warning
+<strong>Warning</strong>:
+If you unfavorite a course under <strong>Past Enrollments</strong>, you cannot favorite it again.
+:::</p>
+<p><img alt="Screenshot of the Canvas All Courses page with a red box outlining the Favorite column on the far left." src="https://hackmd.io/_uploads/HyczN1Thfx.png" /></p>
+<p><a id="courses-past"></a></p>
+<h3 id="past-enrollments">Past Enrollments</h3>
+<p>You can view past courses and all of their content from the <strong>All Courses</strong> page.</p>
+<ol>
+<li><strong>Scroll down</strong> until you reach the <strong>Past Enrollments</strong> heading. </li>
+<li><strong>Click</strong> on a course's title to access it.</li>
+</ol>
+<p>:::warning
+<strong>Warning</strong>: 
+If you unfavorite a course under <strong>Past Enrollments</strong>, you cannot favorite it again.
+:::</p>
+<p><a id="inbox"></a></p>
+<h2 id="sending-mail-through-canvas-inbox">Sending Mail Through Canvas Inbox</h2>
+<p>Canvas Inbox lets you message instructors, TAs, and classmates without looking up anyone's email address. Messages are tied to a course, so your instructor knows exactly which class you're writing about.</p>
+<p><a id="inbox-send"></a></p>
+<h3 id="send-a-message">Send a Message</h3>
+<ol>
+<li>In the sidebar, click <strong>Inbox</strong>.</li>
+<li>Click the <strong>Compose</strong> icon (pencil and paper) at the top of the page. <img alt="Screenshot of the Canvas Inbox page. A red arrow points out the &quot;Compose&quot; icon in the top right of the screen." src="https://hackmd.io/_uploads/Syh5rgthMx.png" /></li>
+<li>In the <strong>Course</strong> drop-down, select the course.</li>
+<li>In the <strong>To</strong> field, start typing a name, or click the <strong>Address Book</strong> icon to browse by role (Teachers, Students, Groups, etc.).</li>
+<li>Enter a <strong>Subject</strong> and type your message.</li>
+<li><em>(Optional)</em> Click the <strong>Attach</strong> (paperclip) icon to add a file, or the <strong>Media</strong> icon to record or upload audio or video.</li>
+<li>Click <strong>Send</strong>.</li>
+</ol>
+<p>:::warning
+<strong>Warning</strong>:
+When messaging more than one person, check the <strong>Send an individual message to each recipient</strong> box if you <em>don't</em> want everyone to see each other's replies. Otherwise, it sends as a group conversation.
+:::</p>
+<p>:::info
+<strong>Note</strong>:
+You can't message users in a course after it has concluded.
+:::</p>
+<p><a id="inbox-find"></a></p>
+<h3 id="find-messages-faster">Find Messages Faster</h3>
+<ul>
+<li><strong>Filter by course</strong>: 
+    Use the course drop-down at the top of the Inbox to see only one class. <img alt="Screenshot of Canvas Inbox page with the course filter dropdown open." src="https://hackmd.io/_uploads/r1Dp_Yy6Mx.png" /></li>
+<li><strong>Filter by type</strong>: 
+    Switch between <strong>Inbox</strong>, <strong>Unread</strong>, <strong>Starred</strong>, <strong>Sent</strong>, <strong>Archived</strong>, and <strong>Submission Comments</strong>. <em>Submission Comments</em> collects every comment instructors have left on your assignments, across all courses.<img alt="Screenshot of Canvas Inbox page with the type filter dropdown open." src="https://hackmd.io/_uploads/H1ngtFJpMx.png" /></li>
+<li><strong>Star</strong>: 
+    Hover over a conversation and click the star to flag it for later. <img alt="Screenshot of Canvas Inbox page with a red arrow pointing out the star in the bottom right corner of a message preview." src="https://hackmd.io/_uploads/ry7tqY1TMe.png" /></li>
+<li><strong>Search by user</strong>:
+    Type a name to find every conversation with that person. <img alt="Screenshot of Canvas Inbox page with the user filter highlighted in the Search dropdown." src="https://hackmd.io/_uploads/ByyPKFkpGe.png" /></li>
+</ul>
+<p>:::info
+<strong>Note</strong>:
+Right-click the <strong>Inbox</strong> link in the sidebar and open it in a new tab to keep your messages handy while you work elsewhere in Canvas.
+:::</p>
+<p><a id="history"></a></p>
+<h2 id="navigating-with-recent-history">Navigating with Recent History</h2>
+<p>The <strong>History</strong> button keeps a running list of the course pages you've recently visited (assignments, pages, discussions, quizzes) so you can jump back without clicking through modules again.</p>
+<ol>
+<li>In the sidebar, click <strong>History</strong> (clock icon).</li>
+<li>A panel opens listing the pages you've viewed, newest first.</li>
+<li>Click any item to go straight to it.</li>
+</ol>
+<p><strong>Recent History</strong> holds up to three weeks of course page views.</p>
+<p>:::info
+<strong>Note</strong>: 
+History is especially useful when you remember <em>reading</em> something — a rubric, an announcement, an assignment prompt — but not which course or module it was in.
+:::</p>
+<hr />
+<p><a id="tldr"></a></p>
+<h1 id="quick-links">Quick Links</h1>
+<p>If you've made it all the way here, and missed one of the topics, you can use the following table for a TL;DR instruction or click the links on the left to return to those sections.</p>
+<table>
+<thead>
+<tr>
+<th>I want to...</th>
+<th>Then do...</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#ada-quick">Make Canvas easier to read</a></td>
+<td><strong>Account</strong> → <strong>Use High Contrast UI</strong> / <strong>Use a Dyslexia Friendly Font</strong></td>
+</tr>
+<tr>
+<td><a href="#ada-more">Turn on captions, underlined links, or Immersive Reader</a></td>
+<td><strong>Account</strong> → <strong>Settings</strong> → <strong>Feature Options</strong></td>
+</tr>
+<tr>
+<td><a href="#views">Timeline of everything due across all courses</a></td>
+<td><strong>Dashboard</strong> → <strong>Options</strong> (⋮) → <strong>List View</strong></td>
+</tr>
+<tr>
+<td><a href="#cards">Rename, recolor, or reorder a course</a></td>
+<td><strong>Dashboard</strong> (Card View) → card's <strong>Options</strong> (⋮)</td>
+</tr>
+<tr>
+<td><a href="#todo">Add my own task</a></td>
+<td><strong>Dashboard</strong> (List View) → <strong>Add To Do</strong></td>
+</tr>
+<tr>
+<td><a href="#events">Add a personal event</a></td>
+<td><strong>Calendar</strong> → <strong>+</strong> → <strong>Event</strong></td>
+</tr>
+<tr>
+<td><a href="#courses-favorite">Add/Remove a course from my Dashboard</a></td>
+<td><strong>Courses</strong> → <strong>All Courses</strong> → Toggle <strong>Favorite</strong></td>
+</tr>
+<tr>
+<td><a href="#courses-past">Revisit a completed Canvas course</a></td>
+<td><strong>Courses</strong> → <strong>All Courses</strong> → Scroll down to <strong>Past Enrollments</strong></td>
+</tr>
+<tr>
+<td><a href="#inbox">Message my instructor/classmate</a></td>
+<td><strong>Inbox</strong> → <strong>Compose</strong> → select course → <strong>To</strong></td>
+</tr>
+<tr>
+<td><a href="#history">Find a page I visited earlier</a></td>
+<td><strong>History</strong></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": [], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
